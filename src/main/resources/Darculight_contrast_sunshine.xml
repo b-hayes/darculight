@@ -48,6 +48,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="ECECEC" />
     <option name="SELECTED_INDENT_GUIDE" value="5A5A5A" />
     <option name="SELECTION_BACKGROUND" value="E3EEFD" />
+    <option name="SELECTION_FOREGROUND" value="0" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="BFEAB1" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="EDE0BE" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="D0DFFA" />

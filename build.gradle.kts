@@ -1,3 +1,5 @@
+defaultTasks("buildPlugin")
+
 plugins {
     id("org.jetbrains.intellij.platform") version "2.3.0"
 }

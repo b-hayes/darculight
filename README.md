@@ -29,6 +29,14 @@ src/main/resources/
 └── colors/*.icls                # Editor colour schemes (hand-crafted, do not auto-generate)
 ```
 
-## Status
+## Building
 
-Theme files need review — the UI `.theme.json` files should be based on the bundled Light with Light Header theme rather than custom values. Needs a Gradle build setup to package as an installable `.zip` plugin targeting IntelliJ Platform `IC 2024.3` (`sinceBuild = 243`).
+Requires Java 21+. Install with `sudo apt install -y openjdk-21-jdk`. Then run:
+
+```
+./gradlew
+```
+
+Output: `build/distributions/darculight.zip`
+
+Install via **Settings → Plugins → ⚙ → Install Plugin from Disk**.

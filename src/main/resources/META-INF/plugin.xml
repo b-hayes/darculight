@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>com.bhayes.darculight</id>
+  <name>Darculight Theme</name>
+  <vendor>b-hayes</vendor>
+
+  <description><![CDATA[
+    A light theme with warm, readable colours — a hybrid of Darcula and light IDE themes.
+    Includes three variants:
+    <ul>
+      <li><b>Darculight</b> — clean white background with orange accent</li>
+      <li><b>Darculight Contrast</b> — white background with higher contrast dark-red accent</li>
+      <li><b>Darculight Sunshine</b> — warm cream background with high contrast accents</li>
+    </ul>
+    Each UI theme bundles its matching editor colour scheme, and all three colour schemes
+    are also available independently under <em>Settings → Editor → Colour Scheme</em>.
+  ]]></description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+
+    <!-- UI Themes (sets IDE chrome + editor scheme together) -->
+    <themeProvider
+        id="com.bhayes.darculight.theme.standard"
+        path="/themes/Darculight.theme.json"/>
+    <themeProvider
+        id="com.bhayes.darculight.theme.contrast"
+        path="/themes/Darculight_Contrast.theme.json"/>
+    <themeProvider
+        id="com.bhayes.darculight.theme.sunshine"
+        path="/themes/Darculight_Sunshine.theme.json"/>
+
+    <!-- Colour schemes (also available independently) -->
+    <bundledColorScheme path="/colors/Darculight"/>
+    <bundledColorScheme path="/colors/Darculight_contrast"/>
+    <bundledColorScheme path="/colors/Darculight_contrast_sunshine"/>
+
+  </extensions>
+</idea-plugin>

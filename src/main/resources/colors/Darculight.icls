@@ -1,4 +1,4 @@
-<scheme name="Darculight" version="142" parent_scheme="Darcula">
+<scheme name="Darculight" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2024.3.7.0.0</property>

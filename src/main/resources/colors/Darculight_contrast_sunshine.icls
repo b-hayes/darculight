@@ -1,4 +1,4 @@
-<scheme name="Darculight contrast sunshine" version="142" parent_scheme="Darcula">
+<scheme name="Darculight contrast sunshine" version="142" parent_scheme="Default">
   <metaInfo>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2025.2.6.0.0</property>

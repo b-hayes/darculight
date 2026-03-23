@@ -19,21 +19,13 @@
 
   <extensions defaultExtensionNs="com.intellij">
 
-    <!-- UI Themes (sets IDE chrome + editor scheme together) -->
-    <themeProvider
-        id="com.bhayes.darculight.theme.standard"
-        path="/themes/Darculight.theme.json"/>
-    <themeProvider
-        id="com.bhayes.darculight.theme.contrast"
-        path="/themes/Darculight_Contrast.theme.json"/>
-    <themeProvider
-        id="com.bhayes.darculight.theme.sunshine"
-        path="/themes/Darculight_Sunshine.theme.json"/>
+    <themeProvider id="com.bhayes.darculight.theme.standard" path="/themes/Darculight.theme.json"/>
+    <themeProvider id="com.bhayes.darculight.theme.contrast" path="/themes/Darculight_Contrast.theme.json"/>
+    <themeProvider id="com.bhayes.darculight.theme.sunshine" path="/themes/Darculight_Sunshine.theme.json"/>
 
-    <!-- Colour schemes (also available independently) -->
-    <bundledColorScheme path="/colors/Darculight"/>
-    <bundledColorScheme path="/colors/Darculight_contrast"/>
-    <bundledColorScheme path="/colors/Darculight_contrast_sunshine"/>
+    <bundledColorScheme path="/Darculight"/>
+    <bundledColorScheme path="/Darculight_contrast"/>
+    <bundledColorScheme path="/Darculight_contrast_sunshine"/>
 
   </extensions>
 </idea-plugin>
